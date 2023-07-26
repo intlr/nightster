@@ -11,8 +11,6 @@ $ docker build -t nightster:latest .
 
 ## Usage
 
-1. Run application with no file to be moved
-
 ```console
 $ touch foo.txt
 $ docker run --rm -it -v $(pwd):/app nightster 
